@@ -22,6 +22,6 @@ public class Point {
 		return Math.sqrt((a.getX() - b.getX()) * (a.getX() - b.getX()) + (a.getY() - b.getY()) * (a.getY() - b.getY()));
 	}
 	public String toString() {
-		return "(" + getX() + ", " + getY() + ")";
+		return "Point: (" + getX() + ", " + getY() + ")";
 	}
 }
